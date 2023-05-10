@@ -1,3 +1,35 @@
-.Menu {
-	
-}
+
+
+.Menu{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+  }
+  
+  .Menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  .Menu ul li {
+    margin: 0 10px;
+  }
+  
+  .Menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .Menu ul li a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  

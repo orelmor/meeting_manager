@@ -3,13 +3,19 @@ import "./Menu.css";
 
 function Menu(): JSX.Element {
     return (
-        <div className="Menu">
-			<NavLink to="/home">Home</NavLink>
-            <span> | </span>
-			<NavLink to="/list">List</NavLink>
-            <span> | </span>
-			<NavLink to="/insert">Insert</NavLink>
-        </div>
+
+        <nav className="Menu">
+            <ul>
+                <li><NavLink to="/home">Home</NavLink></li>
+                <li><NavLink to="/list">Meetings</NavLink></li>
+                <li><NavLink to="/insert">Scedule new meeting</NavLink></li>
+            </ul>
+        </nav>
+
+
+
+
+
     );
 }
 

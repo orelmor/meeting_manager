@@ -1,6 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-import Insert from "../../DataArea/Insert/Insert";
-import List from "../../DataArea/List/List";
+import Insert from "../../DataArea/AddNewMeeting/AddNewMeeting";
+import List from "../../DataArea/Meetings/MeetingList";
 import Home from "../../HomeArea/Home/Home";
 import PageNotFound from "../PageNotFound/PageNotFound";
 import "./Routing.css";

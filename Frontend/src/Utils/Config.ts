@@ -1,5 +1,6 @@
 class Config {
-    public serverUrl = "http://localhost:3001/api/____";
+    public meetingsUrl = "http://localhost:3001/api/meetings/";
+    public groupsUrl = "http://localhost:3001/api/groups/";
 }
 
 const appConfig = new Config(); // Singleton
