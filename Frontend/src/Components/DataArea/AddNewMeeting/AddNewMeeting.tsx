@@ -48,7 +48,7 @@ function AddNewMeeting(): JSX.Element {
                 <input type="datetime-local" name="" id="end" {...register("endTime")} required/>
 
                 <label htmlFor="des">Description</label>
-                <textarea {...register("description")} id="des" required></textarea>
+                <textarea {...register("description")} id="des" required cols={15} rows={25}></textarea>
 
                 <label htmlFor="meetingRoom">Meeting Room</label>
                 <input type="text" id="meetingRoom" {...register("meetingRoom")} required/>

@@ -5,6 +5,9 @@
 
 
 }
+.AddNewMeeting *{
+    margin: 5px;
+}
 
 .AddNewMeeting form {
     background-color: rgba(180, 190, 187, 0.623);
@@ -22,6 +25,12 @@
     margin: 7px;
 }
 
+.AddNewMeeting h3{
+    font-size: xx-large;
+}
+
+
+
 .AddNewMeeting input:hover,textarea:hover {
     border: 2px solid #2E8B57;
     background-color: #f5f5f5;
@@ -31,8 +40,9 @@
 .AddNewMeeting input:focus, textarea:focus {
     border: 2px solid #2E8B57;
     box-shadow: 0 0 5px #2E8B57;
-    background-color: #f5f5f5;
+    background-color: whitesmoke;
     outline: none;
+    
 }
 
 .AddNewMeeting #sub {

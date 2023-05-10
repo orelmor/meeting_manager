@@ -16,9 +16,11 @@ function MeetingCard(props: MeetingCardProps): JSX.Element {
             </div>
             <div className="card-body">
                 <p>{props.meeting.description}</p>
+                <hr />
                 <ul>
-                    <li>starts: {props.meeting.startTime}</li>
-                    <li>Ends: {props.meeting.endTime}</li>
+                    <li>From: {props.meeting.startTime}</li>
+                    <li>To: {props.meeting.endTime}</li>
+                    <br />
                     <li>{props.meeting.meetingRoom}</li>
                 </ul>
             </div>
